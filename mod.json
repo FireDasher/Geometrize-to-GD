@@ -10,6 +10,9 @@
 	"version": "v1.0.2",
 	"developer": "FireDasher22",
 	"description": "Import images into GD!",
+	"links": {
+		"source": "https://github.com/FireDasher/Geometrize2Objs/"
+	},
 	"resources": {
 		"spritesheets": {
 			"Geometrize2GDbtn": [
