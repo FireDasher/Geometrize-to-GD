@@ -89,6 +89,7 @@ class $modify(MyEditorUI, EditorUI) {
 			float r = (float)color.at(0).asDouble().unwrap();
 			float g = (float)color.at(1).asDouble().unwrap();
 			float b = (float)color.at(2).asDouble().unwrap();
+			float a = (float)color.at(3).asDouble().unwrap();
 			rgb2hsv(r / 255.f, g / 255.f, b / 255.f, h, s, v);
 
 			// type 32 = circle | type 8 = elipse | type 16 = rotated elipse | type 1 = rectangle
@@ -112,6 +113,8 @@ class $modify(MyEditorUI, EditorUI) {
 					// rotation
 					objs << ",6," << -(float)data.at(4).asDouble().unwrap();
 				}
+				// color channel | 1010 = Black
+				objs << ",21," << 1010;
 				// enable hsv
 				objs << ",41," << "1";
 				// color
