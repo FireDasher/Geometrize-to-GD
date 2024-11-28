@@ -1,0 +1,19 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"mac": "2.2074"
+	},
+	"id": "firedasher22.geometrize_to_gd",
+	"name": "Geometrize to GD",
+	"version": "v1.0.0",
+	"developer": "FireDasher22",
+	"description": "Geometrize2GD but mac support",
+	"resources": {
+		"spritesheets": {
+			"Geometrize2GDbtn": [
+				"logo.png"
+			]
+		}
+	}
+}
