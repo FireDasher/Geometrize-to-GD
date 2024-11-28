@@ -16,7 +16,7 @@ class $modify(MyEditorUI, EditorUI) {
 
 		m_editButtonBar->reloadItems(rows, cols);
 
-		theButton->setID("geometrize-gd-button"_spr);
+		theButton->setID("geometrize2objs-button"_spr);
 	}
 
 	void onClick(CCObject*) {

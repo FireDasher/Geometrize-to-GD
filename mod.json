@@ -5,11 +5,11 @@
 		"mac": "2.2074",
 		"android": "2.2074"
 	},
-	"id": "firedasher22.geometrize_to_gd",
-	"name": "Geometrize to GD",
+	"id": "firedasher22.geometrize2objs",
+	"name": "Geometrize2Objs",
 	"version": "v1.0.0",
 	"developer": "FireDasher22",
-	"description": "Geometrize2GD but mac support",
+	"description": "Import images into GD!",
 	"resources": {
 		"spritesheets": {
 			"Geometrize2GDbtn": [
