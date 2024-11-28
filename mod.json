@@ -11,12 +11,13 @@
 	"developer": "FireDasher22",
 	"description": "Import images into GD!",
 	"links": {
-		"source": "https://github.com/FireDasher/Geometrize2Objs/"
+		"source": "https://github.com/FireDasher/Geometrize2Objs/",
+		"community": "https://discord.gg/n6A96x6RrF"
 	},
 	"resources": {
 		"spritesheets": {
-			"Geometrize2GDbtn": [
-				"logo.png"
+			"Geometrize2objsBtn": [
+				"geometrize2objsBtn.png"
 			]
 		}
 	}
